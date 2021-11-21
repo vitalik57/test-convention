@@ -1,0 +1,11 @@
+import { createAction } from "@reduxjs/toolkit";
+export const inputValueAction = createAction("inputValue");
+export const parametrAction = createAction("parametrAction");
+export const showModalAction = createAction("showModal");
+export const finishConvectionValueAction = createAction("finishConvectionValueAction");
+export const rateAction = createAction("rateAction");
+export const exchangeRateAction = createAction("exchangeRateAction");
+export const currencyExchangeRateAction = createAction("currencyExchangeRateAction");
+export const baseExchangeRateAction = createAction("baseExchangeRateAction");
+export const fromConversionExchangeRateAction = createAction("fromConversionExchangeRateAction");
+export const toConversionExchangeRateAction = createAction("toConversionExchangeRateAction");
