@@ -68,7 +68,7 @@ const Converter = ({
             ))}
           </select>
         </div>
-        <input disabled={!to || !from} type="number" onChange={handleChange} />
+        <input placeholder="Please select the currency first" disabled={!to || !from} type="number" onChange={handleChange} />
         <ConventerValue
           finishConvection={finishConvection}
           inputValue={inputValue}

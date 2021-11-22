@@ -51,6 +51,7 @@ export const ConventerStyled = styled.div`
     margin-bottom: 20px;
   }
   input {
+    width: 250px;
     -webkit-appearance: none;
     margin: 0;
     opacity: 0.7;
